@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa901ff85ae51412c23232886d8eb694",
+    "content-hash": "ad4a0559c8792def11c85a949538c312",
     "packages": [
         {
             "name": "dompdf/dompdf",
@@ -71,6 +71,52 @@
             "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
             "homepage": "https://github.com/dompdf/dompdf",
             "time": "2018-12-14T02:40:31+00:00"
+        },
+        {
+            "name": "kingmaster772/php-database-connector",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kingmaster772/php-database-connector.git",
+                "reference": "625c328667351c903cec238f12699ad93cb86ad7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kingmaster772/php-database-connector/zipball/625c328667351c903cec238f12699ad93cb86ad7",
+                "reference": "625c328667351c903cec238f12699ad93cb86ad7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Agil Setiawan",
+                    "email": "agil@kingmaster.id",
+                    "homepage": "https://kingmaster.id",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP-PDO based database connector to some provider such as mysql, postgre, sqlserver, oracle",
+            "homepage": "https://github.com/kingmaster772/php-database-connector",
+            "keywords": [
+                "connector",
+                "database"
+            ],
+            "time": "2019-09-27T18:02:44+00:00"
         },
         {
             "name": "phenx/php-font-lib",
@@ -197,8 +243,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "kingmaster772/php-database-connector": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
